@@ -1,0 +1,18 @@
+# http://editorconfig.org
+root = true
+
+# 匹配全部文件
+[*]
+# 设置字符集
+charset = utf-8
+indent_style = space
+indent_size = 2
+# 结尾换行符，可选"lf"、"cr"、"crlf"
+end_of_line = crlf
+# 在文件结尾插入新行
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
